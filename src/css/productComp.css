@@ -21,4 +21,8 @@
 }
 #redIcon{
     color: red;
+    transition: 1s;
 }
+ #heart{
+    transition: 1s;
+ }
