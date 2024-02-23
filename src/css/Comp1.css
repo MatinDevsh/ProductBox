@@ -10,6 +10,9 @@
     margin: 10px auto;
     transition: 1s;
     width: 80%;
+    border: 1px solid #999;
+    border-radius: 10px; 
+  
     
 }
 .headerDiv{
@@ -20,6 +23,7 @@
     padding: 2px;
     color: #fff;
     transition: 1s;
+    
     
    
 }
@@ -36,9 +40,7 @@
     
    margin-left: 80%;
 }
-.productMainDiv{
-    height: 500px;
-}
+
 #chevronUp{
     font-size: 20px; 
     transition: 1s;
@@ -48,24 +50,25 @@
     transition: 1s;
 }
 .productMainDiv{
+    overflow: hidden;
+    height: 500px;
     display: flex;
     position: relative;
-    
+    z-index: -1;
     justify-content: space-around;
     transition-duration: 1s;
    
 }
 .none{
-   display: flex;
+    display: flex;
     transition-duration: 1s;
     justify-content: space-around;
-   margin-top: -600px;
-   height: 500px;
-   overflow: hidden;
+    height: 0px;
+    overflow: hidden;
 }
 .headerDivFalse{
     background-color:#ccc;
-    
+    z-index: 99;
     border-radius: 10px 10px 10px 10px ;
     height: 35px;
     padding: 2px;

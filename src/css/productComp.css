@@ -8,8 +8,13 @@
     width: 23%;
     margin-top: 20px;
     transition-duration: 1s;
+    z-index: -2;
     
   
+}
+
+.none1{
+    
 }
 #img{
     width:300px;
