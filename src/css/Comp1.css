@@ -24,6 +24,7 @@
     color: #fff;
     transition: 1s;
     
+    
    
 }
 
@@ -49,25 +50,36 @@
     transition: 1s;
 }
 .productMainDiv{
+    overflow: hidden;
+    height: 500px;
     display: flex;
     position: relative;
+<<<<<<< HEAD
     height: 500px;
+=======
+    z-index: -1;
+>>>>>>> 60a45131f4bc2429e2e5ab82f6881be414df7d5e
     justify-content: space-around;
     transition-duration: 1s;
     overflow: hidden;
    
 }
 .none{
-   display: flex;
+    display: flex;
     transition-duration: 1s;
     justify-content: space-around;
+<<<<<<< HEAD
    
    height: 0px;
    overflow: hidden;
+=======
+    height: 0px;
+    overflow: hidden;
+>>>>>>> 60a45131f4bc2429e2e5ab82f6881be414df7d5e
 }
 .headerDivFalse{
     background-color:#ccc;
-    
+    z-index: 99;
     border-radius: 10px 10px 10px 10px ;
     height: 35px;
     padding: 2px;
