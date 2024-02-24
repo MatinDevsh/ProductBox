@@ -21,7 +21,7 @@ class productComp extends Component {
     render(
         
     ) { 
-        const {imgUrl , product ,price ,description ,cls} =this.props
+        const {imgUrl , product ,price ,description } =this.props
         return ( 
         
     <div className='productDiv'>
